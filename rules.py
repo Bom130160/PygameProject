@@ -19,13 +19,3 @@ def rules() -> None:
 	window.blit(text_pause, (50, 350))
 	window.blit(text_help, (50, 450))
 
-	# start_flag = True
-	# while start_flag:
-	# 	for e in pygame.event.get():
-	# 		if e.type == pygame.QUIT:
-	# 			pygame.quit()
-	# 			sys.exit()
-	# 		elif e.type == pygame.KEYDOWN:
-	# 			if e.key == pygame.K_RETURN or e.key == pygame.K_ESCAPE:
-	# 				start_flag = False
-	# 	pygame.display.update()

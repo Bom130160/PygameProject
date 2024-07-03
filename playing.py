@@ -95,7 +95,7 @@ def game() -> None:
 			time.sleep(5)
 			pygame.mixer.music.stop()
 			win_flag = False
-			pygame.display.set_caption(f'Yellow submarine {score_sub} : {score_ship}')
+			pygame.display.set_caption(f'Yellow submarine {score_sub} : {score_ship}      F1 - Help        Enter - Pause')
 
 			if fin_win_flag: 	# завершение игры и переход к заставке
 				paused = False
